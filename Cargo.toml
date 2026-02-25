@@ -1,0 +1,10 @@
+[package]
+name = "helios"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+relm4 = "0.9.1"
+gtk4 = "0.9"
+local-ip-address = "0.6"
+rand = "0.8"
