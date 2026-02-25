@@ -2,8 +2,6 @@
 
 <img src="media/logo.png" alt="Helios Logo" width="140"/>
 
-# Helios
-
 **A Modern, Lightweight UDP Flood Tool for Linux**
 
 [![Rust](https://img.shields.io/badge/Made_with-Rust-orange?style=flat-square&logo=rust)](https://www.rust-lang.org/)
@@ -20,7 +18,7 @@
 With a focus on speed, aesthetics, and usability, Helios integrates perfectly with modern Linux desktop environments thanks to **Libadwaita**.
 
 <div align="center">
-  <img src="media/s1.png" alt="Helios Screenshot" width="800"/>
+  <img src="media/s1.png" alt="Helios Screenshot" width="55%"/>
 </div>
 
 ## Features
@@ -52,30 +50,6 @@ Helios can be compiled individually or distributed as an **AppImage**.
    ./Helios-x86_64.AppImage
    ```
    *Or simply double-click the file.*
-
-### Building from Source
-
-Ensure you have Rust and the GTK4 development libraries installed. On Fedora/RHEL:
-```bash
-sudo dnf install rust cargo gtk4-devel
-```
-
-Then clone and run:
-```bash
-git clone https://github.com/vdkvdev/Helios.git
-cd Helios
-cargo run --release
-```
-
-## Screenshots
-<div align="center">
-  <img src="media/s2.png" alt="Helios UI Parameters" width="800"/>
-</div>
-
-<div align="center">
-  <img src="media/s3.png" alt="Helios Live Flow" width="800"/>
-</div>
-
 
 ## License
 
